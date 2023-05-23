@@ -10,6 +10,7 @@ function ToDo({idx, task, remove, handleEdit}) {
         setStrikeTask(<p style={{textDecoration: 'line-through'}}>{task}</p>)
     }
 
+    //hidden wrt EditToDoForm component
     if (hidden) {
         return (
             <div className="ToDo">

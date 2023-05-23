@@ -12,7 +12,7 @@ function setLocalStorage(name, value) {
 }
 
 function ToDoList() {
-    const loadLocalStorage = JSON.parse(localStorage.getItem('itemsArray')) || [];
+    const loadLocalStorage = JSON.parse(getLocalStorage()) || [];
 
     const [items, setItems] = useState(loadLocalStorage);
 
