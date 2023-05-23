@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ToDo"
+  >
+    <p />
+    <button>
+      X
+    </button>
+    <button>
+      Edit
+    </button>
+    <button>
+      Mark as complete
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`matches snapshot when editing 1`] = `
+<DocumentFragment>
+  <div
+    class="ToDo"
+  >
+    <p />
+    <p />
+    <p />
+    <button>
+      X
+    </button>
+    <button>
+      Mark as complete
+    </button>
+  </div>
+  <form>
+    <label
+      for="editTask"
+    >
+      Edit task:   
+    </label>
+    <input
+      id="editTask"
+      name="editTask"
+      type="text"
+      value=""
+    />
+    <br />
+    <button>
+      Update
+    </button>
+  </form>
+</DocumentFragment>
+`;
